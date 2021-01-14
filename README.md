@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Jeg bygger en blogg!
+
+Jeg bygger en blogg for å lære meg React.
+
+## Det jeg har så langt gjort
+
+### Create React app
+
+Jeg har opprettet prosjektet ved å kjøre npx create-react-app i konsollen. Dette genererer en mappestruktur med filer som er vanlige å begynne med når man starter et prosjekt.
+
+### components
+
+Jeg opprettet en components-mappe i src-mappen for å holde styr på forskjellige komponenter som jeg kommer til å utforme etter hvert som prosjektet utvikler seg.
+
+## Fra Create React App README
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

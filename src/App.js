@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Post from "./components/Post"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <div className="blog-wrapper">
+      <Post heading="Jeg lager en blogg" content="Dette er et innlegg om hvordan jeg lager en blogg. Denne teksten skal egentlig autogenereres fra en database. vi får se hvordan det går."/>
+      <Post heading="Organisering av innhold" content="Jeg tenker å generere innleggene med nyeste innlegg øverst."/>
+      <Post heading="Videreutvikling" content="Jeg tenker å lage innlogging for admin, sånn at jeg kan redigere innholdet fra websiden."/>
+      <Post heading="Layout på innlegg" content="Jeg vil også finne ut hvordan jeg kan tilpasse bilder og sånt."/>
+      </div>
+      <Footer/>
     </div>
   );
 }
